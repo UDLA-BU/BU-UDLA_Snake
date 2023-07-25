@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{96D940BE-26A0-BD32-1888-808E459B7A99}</ProjectGuid>
+    <ProjectGuid>{42BDBCE1-66CB-4823-CAD0-66A556F5CC26}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Collectible.cs" />
     <Compile Include="Assets\MoveControl.cs" />
     <Compile Include="Assets\CollectibleManager.cs" />
-    <Compile Include="Assets\Collectible.cs" />
-    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
